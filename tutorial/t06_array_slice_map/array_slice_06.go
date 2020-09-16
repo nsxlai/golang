@@ -53,4 +53,11 @@ func main() {
 	// able to sort slice as well
 	sort.Ints(num)
 	fmt.Println("Sorted numbers:", num)
+
+	// The GO runtime is statically linked into the application.
+	// Memory is allocated and deallocated automatically.
+	// Use make() or new() to initialize maps, slices, and channels
+
+	// new(): Allocates but does not initialize memory. Results in zeroed storage but returns a memory address
+	// make(): Allocates and initialize memory. Allocates non-zeroed storage and returns a memory address.
 }

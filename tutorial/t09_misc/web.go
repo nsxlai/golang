@@ -19,7 +19,7 @@ func main() {
 	content := contentFromService(url)
 
 	tours := toursFromJson(content)
-	fmt.Println(len(tours[0]))
+	// fmt.Println(tours[0])
 
 	for _, tour := range tours {
 		price, _, _ := big.ParseFloat(tour.Price, 10, 2, big.ToZero) // base10 with 2-digit precision
