@@ -37,6 +37,9 @@ func main() {
 	c, d := a, b
 	fmt.Println("c =", c, "and d =", d)
 
+	c, d = b, a
+	fmt.Println("c =", c, "and d =", d)
+
 	// Variadic functions (unspecified nums of function variable input, like *arg in Python)
 	sum(1, 2)
 	sum(1, 2, 3, 4, 5, 6)

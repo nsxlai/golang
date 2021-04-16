@@ -25,6 +25,8 @@ func main() {
 		price, _, _ := big.ParseFloat(tour.Price, 10, 2, big.ToZero) // base10 with 2-digit precision
 		fmt.Printf("%v ($%.2f)\n", tour.Name, price)
 	}
+
+	fmt.Printf("There are %d tours\n", len(tours))
 }
 
 func checkError(err error) {
