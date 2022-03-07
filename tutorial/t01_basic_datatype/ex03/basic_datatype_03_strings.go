@@ -83,7 +83,7 @@ func main() {
 	fmt.Println("str2 Contains exp?", strings.Contains(str2, "exp"))
 
 	// zero argument
-	fmt.Println("empty joinstr: ", joinstr())
+	fmt.Println("empty joinstr ", joinstr())
 
 	// multiple arguments
 	fmt.Println(joinstr("GEEK", "GFG"))

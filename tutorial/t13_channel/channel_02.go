@@ -3,7 +3,9 @@
 // range loop and close function
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Function
 func myfun(mychnl chan string) {
