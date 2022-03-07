@@ -81,4 +81,17 @@ func main() {
 	str2 := "An explicitly typed string"
 	fmt.Println("str1 Contains exp?", strings.Contains(str1, "exp"))
 	fmt.Println("str2 Contains exp?", strings.Contains(str2, "exp"))
+
+	// zero argument
+	fmt.Println("empty joinstr: ", joinstr())
+
+	// multiple arguments
+	fmt.Println(joinstr("GEEK", "GFG"))
+	fmt.Println(joinstr("Geeks", "for", "Geeks"))
+	fmt.Println(joinstr("G", "E", "E", "k", "S"))
+}
+
+// Variadic function to join strings
+func joinstr(element ...string) string {
+	return strings.Join(element, "-")
 }

@@ -1,3 +1,5 @@
+// Anonymous function in GO is similar to lambda function in Python but much more structured
+//
 package main
 
 import (
@@ -16,7 +18,6 @@ func main() {
 		fmt.Println("This is also", name)
 	}
 
-	
 	fmt.Println(show(name))
 	pshow(name)
 }

@@ -33,7 +33,7 @@ func main() {
 	fmt.Println(poodle)
 
 	animals := []Animal{Dog{}, Cat{}, Cow{}}
-	for _, animal := range animals {
-		fmt.Println(animal.Speak())
+	for idx, animal := range animals {
+		fmt.Println("idx: ", idx, ", speak: ", animal.Speak())
 	}
 }

@@ -30,13 +30,13 @@ func main() {
 	// Slice delcaraion 2
 	var slice02 []byte
 	slice02 = make([]byte, 5) // Len(slice02) == 5
-	fmt.Println("slice01 = ", slice02)
+	fmt.Println("slice02 = ", slice02)
 	slice02[0] = 'h'
 	slice02[1] = 'e'
 	slice02[2] = 'l'
 	slice02[3] = 'l'
 	slice02[4] = 'o'
-	fmt.Println("slice01 = ", slice02)
+	fmt.Println("slice02 = ", slice02)
 
 	// Slice declaration 3
 	slice03 := []byte{'g', 'o', 'l', 'a', 'n', 'g'}

@@ -20,8 +20,10 @@ func main() {
 
 	fmt.Println("area: ", r.area())
 	fmt.Println("perim:", r.perim())
+	fmt.Println("Memory location for r: %p", r)
 
 	rp := &r
 	fmt.Println("area: ", rp.area())
 	fmt.Println("perim:", rp.perim())
+	fmt.Println("Memory location for rp: %p", &rp)
 }

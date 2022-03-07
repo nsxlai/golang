@@ -24,6 +24,7 @@ func main() {
 	fmt.Println("map:", m)
 
 	_, prs := m["k2"]
+	// fmt.Println("_:", _)   // Unable to print _ value, unlike Python
 	fmt.Println("prs:", prs)
 
 	n := map[string]int{"foo": 1, "bar": 2}
