@@ -52,7 +52,7 @@ func main() {
 	fmt.Println("Title s3: ", strings.Title(s3)) // capitalize all the word in the string
 	fmt.Printf("len(s3) = %d\n", len(s3))        // array has no cap function supported (only slice has cap function)
 	fmt.Printf("s3[0] = %v\n", s3[0])
-	fmt.Printf("s3[0] = %s\n", s3[0])
+	// fmt.Printf("s3[0] = %s\n", s3[0])  // Cannot display INT as string; display %!s(uint8=84)
 	fmt.Printf("s3[0] = %q\n", s3[0])
 	fmt.Printf("s4 = %v\n", s4)
 	fmt.Printf("s5 = %v\n", s5)

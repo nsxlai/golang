@@ -59,6 +59,8 @@ func main() {
 	myString := fmt.Sprintf("Data types as var: %T, %T, %T, %T, and %T",
 		number1, number2, number2x, b1, testName)
 	fmt.Println("mystring: ", myString)
+	fmt.Println("sInt = ", sInt)
+	fmt.Println()
 
 	fmt.Printf("3025 octal: %o\n", 3025)
 	fmt.Printf("3025 hexdecimal (non-cap): %x\n", 3025)
@@ -68,17 +70,17 @@ func main() {
 	fmt.Printf("String example: %s\n", "test")
 	fmt.Printf("String example: %q\n", "test")
 	fmt.Println()
-	fmt.Println("Example" + " combining" + " strings\n")
+	fmt.Println("Example" + " combining" + " strings")
 
 	fmt.Printf("[test1] 1 char in string: %T\n", test1)
-	fmt.Printf("[test1] 1 char in string: %b\n", test1)
+	// fmt.Printf("[test1] 1 char in string: %b\n", test1)  // type is not matchin; will display %!b(string=A)
 	fmt.Printf("[test1] 1 char in string: %s\n", test1)
 	fmt.Printf("[test1] 1 char in string: %q\n", test1)
 	fmt.Printf("[test1] 1 char in string: %v\n", test1)
 
 	fmt.Printf("[test2] byte: %T\n", test2)
 	fmt.Printf("[test2] byte: %b\n", test2)
-	fmt.Printf("[test2] byte: %s\n", test2)
+	// fmt.Printf("[test2] byte: %s\n", test2)  // type is not matching; will display %!s(int32=65)
 	fmt.Printf("[test2] byte: %q\n", test2)
 	fmt.Printf("[test2] byte: %v\n", test2)
 
