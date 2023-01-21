@@ -4,7 +4,7 @@ package main
 import "fmt"
 
 func zeroval(ival int) {
-	ival = 10
+	// ival = 10
 	fmt.Println("ival:", ival)
 }
 
@@ -16,7 +16,7 @@ func zeroptr(iptr *int) {
 func main() {
 	i := 1
 	fmt.Println("initial value:", i)
-	fmt.Println("initial pinter:", &i)
+	fmt.Println("initial pointer:", &i)
 
 	zeroval(i)
 	fmt.Println("zeroval:", i)
